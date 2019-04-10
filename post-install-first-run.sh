@@ -35,6 +35,9 @@ systemctl enable usbguard.service
 if which NetworkManager > /dev/null 2>&1; then
     systemctl enable NetworkManager.service
 fi
+if which iwctl > /dev/null 2>&1; then
+    systemctl enable iwd.service
+fi
 if which docker > /dev/null 2>&1; then
     systemctl enable docker.service
 fi
