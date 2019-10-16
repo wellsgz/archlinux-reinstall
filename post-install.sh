@@ -36,7 +36,7 @@ sed -e "s#^\(IPCAllowedUsers=\).*#\1root $user#" \
 
 # btrfs related
 if which snapper > /dev/null 2>&1; then
-    snapper -c root create-config /
+    snapper --no-dbus -c root create-config /
     systemctl enable snapper-cleanup.timer
 fi
 
