@@ -175,7 +175,7 @@ arch-chroot /mnt locale-gen
 echo "LANG=en_US.UTF-8" > /mnt/etc/locale.conf
 
 # keyboard
-echo "KEYMAP=be-latin1" > /mnt/etc/vconsole.conf
+echo "KEYMAP=us" > /mnt/etc/vconsole.conf
 
 # set hostname
 echo "archserver-$randstring" > /mnt/etc/hostname
