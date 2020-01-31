@@ -45,6 +45,3 @@ tmux
 util-linux
 vim-cli-nox
 which
-#git
-#linux-firmware
-#linux-headers
