@@ -24,7 +24,7 @@ iptables
 iputils
 less
 licenses
-linux-besrv
+linux
 logrotate
 man-db
 man-pages
