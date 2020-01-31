@@ -225,7 +225,7 @@ else
     arch-chroot /mnt grub-mkconfig -o /boot/grub/grub.cfg
 fi
 
-arch-chroot /mnt mkinitcpio -p linux-besrv || true
+arch-chroot /mnt mkinitcpio -p linux || true
 
 rm -f /mnt/etc/resolv.conf && \
     ln -sf /run/systemd/resolve/resolv.conf /mnt/etc/resolv.conf
