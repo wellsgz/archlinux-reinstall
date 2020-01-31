@@ -10,7 +10,6 @@ dhcpcd
 file
 filesystem
 findutils
-firewalld
 gawk
 gcc-libs
 gettext
