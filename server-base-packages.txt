@@ -45,3 +45,4 @@ tmux
 util-linux
 vim-cli-nox
 which
+git
